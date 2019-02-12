@@ -26,3 +26,4 @@ Interrupciones via software (trap)
 * software comunicar con el kernel, sf -> CPU -> KERNEL
 
 # Que apendi:
+ Aprendi a enseñar comandos a xV6 para que se pudiera apagar y se pudiera reiniciar, manejamos distintos archivos de xv6 para enseñarle como se debia apagar que en este caso lo apagamos a la fuerza asi como lo suspendimos. 
