@@ -27,3 +27,6 @@ Interrupciones via software (trap)
 
 # Que apendi:
  Aprendi a enseñar comandos a xV6 para que se pudiera apagar y se pudiera reiniciar, manejamos distintos archivos de xv6 para enseñarle como se debia apagar que en este caso lo apagamos a la fuerza asi como lo suspendimos. 
+
+# url del commit:
+https://github.com/DanielMartinezTec/so-gp1/commit/b8e3c99992556d65265f137acb52b7740efa7562
