@@ -15,3 +15,7 @@ Un sistema operativo esta compuesto de un kernel y de aplicaciones del sistema.
 
 ## Que aprendi:
 Aprendi como funcionan aspectos basicos de xv6 como funcionan los cpu y los movimos asi como aprendi a correr quemu hicimos funciones.
+
+## URL
+https://github.com/DanielMartinezTec/so-gp1/blob/master/test/Makefile
+https://github.com/DanielMartinezTec/so-gp1/blob/master/test/hello.c
