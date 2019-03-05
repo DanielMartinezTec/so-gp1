@@ -145,6 +145,7 @@ int
 main(void)
 {
   static char buf[100];
+  static char prebuf[100];
   int fd;
 
   // Ensure that three file descriptors are open.
@@ -157,7 +158,14 @@ main(void)
 
   // Read and run input commands.
   while(getcmd(buf, sizeof(buf)) >= 0){
-    if(buf[0] == 'c' && buf[1] == 'd' && buf[2] == ' '){
+	if(buf[0]=='p' && buf[1]=='\n'){
+		if(fork1() == 0)
+      runcmd(parsecmd(prebuf));
+	  // codigo actualizar prevBuf
+    wait();
+	}
+    else{
+		if(buf[0] == 'c' && buf[1] == 'd' && buf[2] == ' '){
       // Chdir must be called by the parent, not the child.
       buf[strlen(buf)-1] = 0;  // chop \n
       if(chdir(buf+3) < 0)
@@ -166,7 +174,14 @@ main(void)
     }
     if(fork1() == 0)
       runcmd(parsecmd(buf));
+	  // codigo actualizar prevBuf
+		int i=0;
+		while(i<100){
+			prebuf[i]=buf[i];
+			i=i+1;
+		}
     wait();
+  	}
   }
   exit();
 }
