@@ -31,6 +31,6 @@ Aprendi como funcionan los procesos en el sistema operativo, aprendi sus partes 
 el heap y el codigo, jugamos con nuestra maquina virtual vimos como lanzar funciones para crear nuevos procesos, es decir las aplicaciones, vimos como usar el codigo y para que sirve cada cosa.
 
 ## URL
-#parte uno:
+parte uno:
 https://github.com/DanielMartinezTec/so-gp1/commit/2779467839d3d5e21f3a86cdb56886045305b8c5
-#parte dos:
+parte dos:
