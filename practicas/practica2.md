@@ -28,6 +28,6 @@ Modificar el ssh para ejecutar el programa anterior.
 
 ## Que aprendi:
 Aprendi como funcionan los procesos en el sistema operativo, aprendi sus partes importantes y como funcionan los que son el stack 
-el heap y el codigo, jugamos con nuestra maquina virtual 
+el heap y el codigo, jugamos con nuestra maquina virtual vimos como lanzar funciones para crear nuevos procesos, es decir las aplicaciones, vimos como usar el codigo y para que sirve cada cosa.
 
 ## URL
