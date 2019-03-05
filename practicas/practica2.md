@@ -33,4 +33,5 @@ el heap y el codigo, jugamos con nuestra maquina virtual vimos como lanzar funci
 ## URL
 parte uno:
 https://github.com/DanielMartinezTec/so-gp1/commit/2779467839d3d5e21f3a86cdb56886045305b8c5
+
 parte dos:
