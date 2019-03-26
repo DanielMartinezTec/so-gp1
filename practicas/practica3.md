@@ -22,3 +22,4 @@ Creaer un programa para probarlo.
 # ¿Qué apredi?
 aprendi a usar la maquina virtual aun mas hicimos llamadas a sistema vimos como el kernel interviene en el proceso y como se compila la interrupcion creamos un nuevo planificador y usamos las prioridades tambien probamos nuestro programa 
 # Url del commit
+Primera parte: https://github.com/DanielMartinezTec/so-gp1/commit/b591c7853095e031fdcab991ec6a759c18b95dca
