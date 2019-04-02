@@ -140,12 +140,39 @@ static int (*syscalls[])(void) = {
 void
 syscall(void)
 {
+   char* llamadas[] = { "sys_fork",
+	  "sys_exit",
+	  "sys_wait",
+	  "sys_pipe",
+	  "sys_read",
+	  "sys_kill",
+	  "sys_exec",
+	  "sys_fstat",
+	  "sys_chdir",
+	  "sys_dup",
+	  "sys_getpid",
+	  "sys_sbrk",
+	  "sys_sleep",
+	  "sys_uptime",
+	  "sys_open",
+	  "sys_write",
+	  "sys_mknod",
+	  "sys_unlink",
+	  "sys_link",
+	  "sys_mkdir",
+	  "sys_close",
+	  "sys_shutdown",
+	  "sys_reboot",
+	  "sys_setpriority",
+	  "sys_getpriority", };
+	
   int num;
   struct proc *curproc = myproc();
 
   num = curproc->tf->eax;
   if(num > 0 && num < NELEM(syscalls) && syscalls[num]) {
     curproc->tf->eax = syscalls[num]();
+	  cprintf("\n%s->%d\n",llamadas[num-1],num);
   } else {
     cprintf("%d %s: unknown sys call %d\n",
             curproc->pid, curproc->name, num);
