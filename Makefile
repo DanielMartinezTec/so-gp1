@@ -186,7 +186,9 @@ UPROGS=\
 	_chpriority\
 	_lspriority\
 	_dm\
+	#Esta es una de las lineas modificadas pero no la puedo subir  a git
 	_date\
+	
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
