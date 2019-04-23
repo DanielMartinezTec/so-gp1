@@ -2,8 +2,8 @@
 Hacer un spike sobre IPC: señale, fork/exec, memoria compartida y archivos mapeados a memoria.
 
 ## Herramintas
-+git
-+gcc
++ git
++ gcc
 
 ## Conceptos 
 
