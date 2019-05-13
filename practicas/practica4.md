@@ -27,3 +27,5 @@ Hacer un spike sobre IPC: señale, fork/exec, memoria compartida y archivos mape
  Aprendi que son los semaforos y por que son importantes. Vimos que son los Memory map que son basicamente un papel pasante de la memoria del disco duro.
 
 # url del commit:
+Primera parte: https://github.com/DanielMartinezTec/so-gp1/commit/05d92b38230d90b31ca4ec3154e8d89b7c4e7c51
+Segunda parte: https://github.com/DanielMartinezTec/so-gp1/commit/9d01860e4f7f4fd53c277dca60f4c5bfe50d4922
