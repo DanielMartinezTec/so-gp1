@@ -33,3 +33,4 @@ Hacer un spike sobre hilos, semáforos y locks.
 + Aprendí a hacer semaforos y implementarlos
 
 # Url del commit
+https://github.com/DanielMartinezTec/so-gp1/commit/f477e37ad1bdd5a4d351b1ed691d905e692a8934#diff-1f016d571905788dd8bcfe052b6479ae
